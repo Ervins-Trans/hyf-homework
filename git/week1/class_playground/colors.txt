@@ -1,0 +1,4 @@
+color=purple;
+color=red;
+color=blue;
+color=yellow;
