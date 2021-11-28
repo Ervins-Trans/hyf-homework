@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="src/css/styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More info</title>
+</head>
+<body>
+    <div class="wrap">
+    <header>
+        <span class="logo">B.E.S.T</span>
+        <nav class="headnav">
+          <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Register / Login</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="about">
+          <h1>B.E.S.T shop sign up</h1>
+        </section>
+        <section class="step-title">
+          <label for="signup"> Step 2/4 - how can we reach? </label>
+            <progress id="signup" max="4" value="2"> 2 </progress>
+          <p>We will probably need to stay in touch somehow. Let us know how can we reach you? 
+              Fields marked (*) are mandatory.
+          </p>
+        </section>
+        <form class="step2" action="index3.html" method="post">
+          <p>
+            <label for="email">Email (*):</label>
+            <input type="email" name="email" id="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone">
+          </p>
+
+          <p>
+            <label for="password">Password (*):</label>
+            <input type="password" name="password" id="password" minlength="10" pattern="(?=.*[A-Z])(?=.*[0-9]).{10,}" required title="At least 10 letters and numbers with capitals">
+            <label for="password2">Confirm Password (*):</label>
+            <input type="password" name="password2" id="password2" minlength="10" pattern="(?=.*[A-Z])(?=.*[0-9]).{10,}" required title="At least 10 letters and numbers with capitals">
+          </p>
+          <p>I want to signup for a newsletter.</p>
+
+            <label for="week">Weekly news</label>
+            <input type="radio" name="newsletter" id="week" value="week" required>
+            <label for="month">Monthly news</label>
+            <input type="radio" name="newsletter" id="month" value="month" required checked="yes">
+            <label for="dont">Don't send me news</label>
+            <input type="radio" name="newsletter" id="dont" value="dont" required>
+          <p>
+            <button type="submit" name="nextStep">Next Step</button>
+        </form>
+      </main>
+      </div>
+</body>
+</html>

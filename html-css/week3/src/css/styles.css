@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "roboto", sans-serif;
+}
+.wrap {
+  margin: 0 auto;
+  display: block;
+  align-self: center;
+  max-width: 768px;
+}
+/*Header starts here*/
+
+header {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: lightgray;
+  background-color: #0f0f0f;
+}
+
+.logo {
+  width: 150px;
+}
+
+.headnav {
+  max-width: 350px;
+}
+
+.headnav ul li {
+  display: inline-flex;
+}
+
+.headnav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: lightgray;
+  margin: 0 10px 0;
+}
+/* Header ends here */
+
+/* Main and form*/
+.about {
+  margin: 20px 0 20px;
+}
+.about p {
+  margin: 10px 0 10px;
+}
+.step-title {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+.step-title p {
+  padding-top: 10px;
+  align-self: center;
+  width: 100%;
+}
+#signup {
+  appearance: none;
+  height: 1.2rem;
+  width: 250px;
+}
+#signup::-webkit-progress-bar {
+  border-radius: 25px;
+  background-color: white;
+  border: 1px solid lightskyblue;
+}
+#signup::-webkit-progress-value {
+  background-color: lightskyblue;
+  border-radius: 25px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-weight: 900;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  margin: 0 15px 0 5px;
+}
+
+button {
+  float: right;
+  border-radius: 5px;
+  border: none;
+  min-width: 200px;
+  font-size: 1.2rem;
+  color: lightgray;
+  background-color: #0f0f0f;
+  padding: 0.75rem;
+}
+
+input[type="checkbox"] {
+  margin-bottom: 20px;
+}
+form p,
+.hidden p {
+  margin-bottom: 20px;
+}
+.profile-description {
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 0;
+  resize: none;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+#shipping:checked ~ .hidden {
+  display: none;
+}
+/* step 3 exlusives*/
+
+.offers {
+  margin: 20px 0 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+.offer-item {
+  margin: 0 auto;
+  display: grid;
+  padding: 10px;
+}
+.offer-item img {
+  display: block;
+}
+.offer-item label {
+  margin: 0;
+  padding: 5px 0 0 20px;
+}
+
+/* the end of exclusivity of step 3*/
+
+#ccv {
+  width: 30px;
+}

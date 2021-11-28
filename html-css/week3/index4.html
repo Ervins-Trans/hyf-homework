@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="src/css/styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even more info</title>
+</head>
+<body>
+    <div class="wrap">
+    <header>
+        <span class="logo">B.E.S.T</span>
+        <nav class="headnav">
+          <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Register / Login</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="about">
+          <h1>B.E.S.T shop sign up</h1>
+        </section>
+        <section class="step-title">
+          <label for="signup"> Step 4/4 - Almost There! </label>
+            <progress id="signup" max="4" value="4"> 4 </progress>
+          <p> Just enter your payment details </p>
+        </section>
+    <form class="step4" action="index.html" method="post">
+        <p>
+        <label> Your Name (as on card)(*): <input type="text" name="fullName" required></label>
+        </p>    
+        <p>
+          <label for="cardType">Card type</label>
+          <select id="cardType" name="cardType">
+            <option value="visaDankort">Dankort</option>
+            <option value="mastercard">MasterCard</option>
+            <option value="visa">Visa</option>
+          </select>
+        </p>
+        <label>Card number (*): <input type="text" name="cardNumber" inputmode="num" pattern="\d*" maxlength="16" minlength="16" required title="16 digits exactly, digits only"></label>
+        <label>Expiration date(*): <input type="month" name="expDate" required></label>
+        <p>
+          <label>CCV (*): <input id="ccv" type="text" name="ccv" pattern="\d*" minlength="3" maxlength="3" rows="1" columns="3" required></label>
+        </p>
+        <p>
+          <button type="submit" name="next">Next Step</button>
+        </p>
+      </form>
+    </main>
+</div>
+</body>
+</html>

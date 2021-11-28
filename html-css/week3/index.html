@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="src/css/styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="wrap">
+    <header>
+        <span class="logo">B.E.S.T</span>
+        <nav class="headnav">
+          <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Register / Login</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="about">
+          <h1>B.E.S.T shop sign up</h1>
+          <p>We can't wait to help you improve your life-style and gain the attention from people around you!</p>
+          <p>Sign up below to save up to 70% on apparel, hand-bags and cosmetics. Our agents are busy picking the best offers that match your preferences and style. Every week we will send you a hand-picked selection - we just need to know few details about you first... </p>
+        </section>
+        <section class="step-title">
+          <label for="signup"> Step 1/4 - tell us who you are? </label>
+            <progress id="signup" max="4" value="1"> 1 </progress>
+          <p>Nice to meet you! Let's spend a minute to get to know each other? Please enter the following data.
+              Fields marked (*) are mandatory.
+          </p>
+        </section>
+        <form class="step1" action="index2.html" method="post">
+            <p>
+            <label for="firstName">First name (*):</label>
+            <input type="text" name="firstName" id="firstName" required>
+            <label for="lastName">Last name (*):</label>
+            <input type="text" name="lastName" id="lastName" required>
+            </p>
+            <p>
+          <label for="country">Country (*):</label>
+          <select name="country" id="country" required>
+            <option value="DNK">Denmark</option>
+            <option value="ISL">Iceland</option>
+            <option value="NOR">Norway</option>
+            <option value="SWE">Sweden</option>
+            <option value="FIN">Finland</option>
+            <option value="EST">Estonia</option>
+          </select>
+            </p>
+            <p>
+            <label for="street">Street address (*):</label>
+            <input type="text" name="street" id="street" required>
+            <label for="postCode">Post code (*):</label>
+            <input type="text" pattern="\d*" name="postCode" id="postCode" maxlength="4" required title="4 digits, digits only">
+          </p>
+          <div class="profile-description">
+            <div>
+              <label for="profile">Profile description</label>
+              <p class="italic">
+                Please provide a short description of yourself to be displayed on our social community pages.
+              </p>
+            </div>
+            <textarea name="profileDescription" id="profileDescription" rows="8" cols="50" maxlength="500"></textarea>
+          </div>
+          <p>Use the same address for billing and shipping? Uncheck below to fill out a separate shipping address.</p>
+
+          <label for="shipping">Shipping</label>
+          <input type="checkbox" name="shipping" id="shipping" checked="funnyhowyoucanenteranythinghere"> 
+          <!-- I assume any value greater than 0 means true ? or any value in general ? Bit confused-->
+    
+          <div class="hidden">
+            <p>Shipping Address</p>
+            <p>
+              <label for="firstNameShipping">First Name (*):</label>
+              <input type="text" name="firstNameShipping" id="firstNameShipping">
+              <label for="lastNameShipping">Last Name (*):</label>
+              <input type="text" name="lastNameShipping" id="lastNameShipping">
+            </p>
+            <p>
+            <label for="countryShipping">Country (*):</label>
+            <select name="countryShipping" id="countryShipping">
+                <option value="DNK">Denmark</option>
+                <option value="ISL">Iceland</option>
+                <option value="NOR">Norway</option>
+                <option value="SWE">Sweden</option>
+                <option value="FIN">Finland</option>
+                <option value="EST">Estonia</option>
+            </select>
+            </p>
+            <p>
+              <label for="streetShipping">Street address (*):</label>
+              <input type="text" name="streetShipping" id="streetShipping">
+              <label for="postCodeShipping">Post code (*):</label>
+              <input type="text" pattern="\d*" name="postCodeShipping" id="postCodeShipping" maxlength="4" title="4 digits, digits only">
+            </p>
+          </div>
+          
+          <p>
+            <button type="submit" name="nextStep">Next Step</button>
+          </p>
+        </form>
+      </main>
+      </div>
+</body>
+</html>
