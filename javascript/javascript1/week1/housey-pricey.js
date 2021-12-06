@@ -36,7 +36,7 @@ const JuliaHouseDepth = 11;
 const JuliaHouseHeight = 8;
 const JuliaHouseGardenArea = 70;
 
-let juliaVolumeInMeters = JuliaHouseDepth * JuliaHouseWidth * JuliaHouseDepth;
+let juliaVolumeInMeters = JuliaHouseDepth * JuliaHouseWidth * JuliaHouseHeight;
 console.log("\n");
 console.log("Julia's house is " + juliaVolumeInMeters + " cubicmeters.");
 console.log("Their garden is " + JuliaHouseGardenArea + " m2 large.");
