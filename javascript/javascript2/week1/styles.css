@@ -1,0 +1,19 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    max-width: 480px;
+    height: 100vh;
+    margin: 0 auto 0;
+    padding: 50px;
+    background-color: lightgray;
+    
+}
+.output {
+padding: 20px;
+border: 1px solid black;
+}
+h1 {
+padding: 20px auto;
+}
