@@ -1,0 +1,62 @@
+[
+    {
+        "id": "X",
+        "data": "This is a short json that consists of 4 elementts, 3 of which are family of creatures living in New-bork, and the initial one is this explanation"
+    },
+{
+"id": 1,
+"name": "John",
+"name2": "Smith",
+    "data": {
+        "adress": {
+            "home" : "1a",
+            "street": "357th",
+            "city": "New-Bork",
+            "cityPostal": "8040",
+            "country": "Sweetborkland"
+        },
+        "family": {
+        "children": true,
+        "martial": true
+        }
+    }
+}
+,
+{
+    "id": 2,
+    "name": "Jane",
+    "name2": "Doe",
+        "data": {
+            "adress": {
+                "home" : "1a",
+                "street": "357th",
+                "city": "New-Bork",
+                "cityPostal": "8040",
+                "country": "Sweetborkland"
+            },
+            "family": {
+            "children": true,
+            "martial": true
+            }
+        }
+}
+,
+{
+    "id": 3,
+    "name": "Dean",
+    "name2": "Smith",
+        "data": {
+            "adress": {
+                "home" : "1a",
+                "street": "357th",
+                "city": "New-Bork",
+                "cityPostal": "8040",
+                "country": "Sweetborkland"
+            },
+            "family": {
+            "children": false,
+            "martial": false
+            }
+        }
+}
+]
