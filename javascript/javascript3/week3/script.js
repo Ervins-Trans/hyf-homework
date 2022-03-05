@@ -1,3 +1,4 @@
+"use strict";
 console.log("ScriptJS is on");
 // finding canvas and making it bit nicer
 const canv = document.getElementById("cirPlay");
@@ -85,5 +86,5 @@ canv.addEventListener(
     let cirFillCol = "#" + Math.floor(Math.random() * 0xffffff).toString(16);
     const c = new Circle(cirx, ciry, cirr, 0, 2 * Math.PI, cirFillCol);
     c.draw();
-  }, 50) // throttle delay,
+  }, 50) // throttle delay, 50ms
 );
