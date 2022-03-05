@@ -69,3 +69,4 @@ function renderResponses() {
   }
 }
 renderResponses(); // call function that will work on and render promises
+// sometimes if refreshed vigorously returns 403 as console error and breaks.
