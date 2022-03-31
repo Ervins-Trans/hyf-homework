@@ -44,7 +44,7 @@ class ShoppingCart {
 
   removeProduct(product) {
     // Implement functionality here
-    this.products = this.products.filter((i) => i !== product);
+    this.products = this.products.filter((product) => product !== productToRemove);
   }
 
   searchProduct(productName) {
