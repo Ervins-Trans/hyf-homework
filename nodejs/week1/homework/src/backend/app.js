@@ -9,7 +9,7 @@ const reviews = require("./data/reviews");
 // arrays for responses
 const mealsReviewed = JSON.parse(JSON.stringify(meals)).map((meal) => {
   meal.reviews = [];
-  reviews.filter((review) => {
+  reviews.forEach((review) => {
     if (meal.id === review.mealId) {
       meal.reviews.push(review);
     }
