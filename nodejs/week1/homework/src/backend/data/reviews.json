@@ -5,5 +5,26 @@
     "content": "Best meal ever",
     "mealId": 1,
     "createdAt": 12345
+  },
+  {
+    "id": 2,
+    "numberOfStars": 5,
+    "content": "Pleases meat lovers",
+    "mealId": 2,
+    "createdAt": 12333
+  },
+  {
+    "id": 3,
+    "numberOfStars": 5,
+    "content": "Warm and hearthy",
+    "mealId": 3,
+    "createdAt": 12556
+  },
+  {
+    "id": 4,
+    "numberOfStars": 1,
+    "content": "Expected more, went home hungry",
+    "mealId": 1,
+    "createdAt": 56569
   }
 ]

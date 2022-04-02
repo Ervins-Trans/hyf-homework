@@ -4,5 +4,23 @@
     "name": "Benjamin Hughes",
     "email": "benjamin@hughes.dk",
     "mealId": 1
+  },
+  {
+    "id": 2,
+    "name": "Millian McMillian",
+    "email": "mil@mc.dk",
+    "mealId": 2
+  },
+  {
+    "id": 3,
+    "name": "Augusts Berzins",
+    "email": "aug@hber.dk",
+    "mealId": 2
+  },
+  {
+    "id": 4,
+    "name": "Monica Benji",
+    "email": "mon@mon.dk",
+    "mealId": 3
   }
 ]
