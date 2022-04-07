@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "title" : "Indian food in the summer",
+        "maxNumberOfGuests" : 5,
+        "description" : "A nice night out eating delicious indian food",
+        "createdAt" : "2019/12/7 14:34",
+        "price" : 67
+    },
+    {
+        "id" : 2,
+        "title" : "Chilli-Con-Carne",
+        "maxNumberOfGuests" : 12,
+        "description" : "A huge portion of meat-bean-name-it sauce served with rice. Scalable",
+        "createdAt" : "2020/01/22 12:34",
+        "price" : 100
+    },
+    {
+        "id" : 3,
+        "title" : "Vegetable Stew",
+        "maxNumberOfGuests" : 6,
+        "description" : "Vegetarian friendly option for large groups",
+        "createdAt" : "2020/02/23 14:48",
+        "price" : 50
+    }
+]
